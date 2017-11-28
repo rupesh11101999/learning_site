@@ -5,10 +5,11 @@ from .models import Course, Step
 
 def course_list(request):
     courses = Course.objects.all()
+    email = 'questions@learning_site.com'
     return render(
         request,
         'courses/course_list.html', # omit 'template/', it is implied
-        {'courses': courses}
+        {'courses':courses, 'email':email}
     )
 
 
