@@ -13,7 +13,11 @@
             <!-- step_set is a queryset. use all()
              (write without parens) to get all courses-->
             {% for step in course.step_set.all %}
-                <h3>{{ step.title }}</h3>
+                <h3>
+                    <a href="{% url 'courses:step' course_pk=course.pk step_pk=step.pk %}">
+                        {{ step.title }}
+                    </a>
+                </h3>
                 {{ step.description }}
             {% endfor %}
         </section>
