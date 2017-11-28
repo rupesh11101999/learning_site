@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ course.title }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <h2>{{ course.title }}</h2>
+        {{ course.description }}
+
+        <section>
+            <!-- step_set is a queryset. use all()
+             (write without parens) to get all courses-->
+            {% for step in course.step_set.all %}
+                <h3>{{ step.title }}</h3>
+                {{ step.description }}
+            {% endfor %}
+        </section>
+    </article>
+{% endblock %}
