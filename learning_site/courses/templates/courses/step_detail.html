@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% load course_extras %}
 
 {% block title %}
     {{ step.title }} - {{ step.course.title }}
@@ -16,7 +17,9 @@
         acting on data given to them. linebreaks
         will transform 2 returns into closing, open <p> tags-->
         {% with con=step.content %}
-            {{ con|linebreaks }} Content: {{ con|wordcount }} words
+            {{ con|linebreaks }}
+            Content: {{ con|wordcount }} words.
+            Estimated time to complete: {{ con|wordcount|time_estimate }} minute{{ con|wordcount|time_estimate|pluralize }}
         {% endwith %}
     </article>
 {% endblock %}
