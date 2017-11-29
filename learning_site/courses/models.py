@@ -1,14 +1,13 @@
 from django.db import models
 
+
 class Course(models.Model):
-    # whenever record is first added (created), it will
-    # automatically be datetime.now()
     created_at = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=255)
     description = models.TextField()
-
+    
     def __str__(self):
-        return str(self.title)
+        return self.title
 
 
 class Step(models.Model):
@@ -17,10 +16,9 @@ class Step(models.Model):
     content = models.TextField(blank=True, default='')
     order = models.IntegerField(default=0)
     course = models.ForeignKey(Course)
-
+    
     class Meta:
         ordering = ['order',]
-
-
+    
     def __str__(self):
         return self.title

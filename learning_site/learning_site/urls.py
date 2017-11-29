@@ -22,8 +22,7 @@ from . import views
 urlpatterns = [
     url(r'^courses/', include('courses.urls', namespace='courses')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', views.home), # ^$ == empty string
+    url(r'^$', views.hello_world, name='home'),
 ]
 
-# in debug mode, this will add path to the project's static files:
 urlpatterns += staticfiles_urlpatterns()
