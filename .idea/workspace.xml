@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf7b7d2-8cb2-45ba-80d5-bd5caba45163" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/assets/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/courses/migrations/0003_auto_20171127_2218.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/courses/templates/courses/course_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/courses/templates/courses/course_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/courses/templates/courses/course_nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/courses/templates/courses/step_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/learning_site/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/learning_site/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/learning_site/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/learning_site/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/learning_site/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/templates/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/learning_site/templates/layout.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/admin.py" afterPath="$PROJECT_DIR$/learning_site/courses/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/learning_site/courses/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/migrations/0002_step.py" afterPath="$PROJECT_DIR$/learning_site/courses/migrations/0002_step.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/models.py" afterPath="$PROJECT_DIR$/learning_site/courses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/static/courses/css/courses.css" afterPath="$PROJECT_DIR$/learning_site/courses/static/courses/css/courses.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/templatetags/course_extras.py" afterPath="$PROJECT_DIR$/learning_site/courses/templatetags/course_extras.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/tests.py" afterPath="$PROJECT_DIR$/learning_site/courses/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/urls.py" afterPath="$PROJECT_DIR$/learning_site/courses/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/courses/views.py" afterPath="$PROJECT_DIR$/learning_site/courses/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/learning_site/forms.py" afterPath="$PROJECT_DIR$/learning_site/learning_site/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/learning_site/urls.py" afterPath="$PROJECT_DIR$/learning_site/learning_site/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_site/learning_site/views.py" afterPath="$PROJECT_DIR$/learning_site/learning_site/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +14,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_site/learning_site/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_site/learning_site/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_site/learning_site/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suggestion_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learning_site/templates/suggestion_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_site/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,10 +83,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learning_site/learning_site/views.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/models.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/urls.py" />
-        <option value="$PROJECT_DIR$/learning_site/learning_site/urls.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/tests.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/static/courses/css/courses.css" />
         <option value="$PROJECT_DIR$/learning_site/learning_site/settings.py" />
@@ -69,6 +98,10 @@
         <option value="$PROJECT_DIR$/learning_site/courses/templatetags/course_extras.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/views.py" />
         <option value="$PROJECT_DIR$/learning_site/courses/templates/courses/course_list.html" />
+        <option value="$PROJECT_DIR$/learning_site/learning_site/forms.py" />
+        <option value="$PROJECT_DIR$/learning_site/learning_site/views.py" />
+        <option value="$PROJECT_DIR$/learning_site/learning_site/urls.py" />
+        <option value="$PROJECT_DIR$/learning_site/templates/suggestion_form.html" />
       </list>
     </option>
   </component>
@@ -126,6 +159,18 @@
               <item name="learn_django" type="462c0819:PsiDirectoryNode" />
               <item name="learning_site" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_django" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_site" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_django" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_site" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,8 +222,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="915" y="0" width="1012" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30080482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22837022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -235,20 +281,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_site/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -473,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_site/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_site/courses/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -509,14 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_site/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -569,22 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning_site/learning_site/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -605,6 +605,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/learning_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_site/templates/suggestion_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
